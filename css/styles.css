@@ -1,5 +1,5 @@
 body{margin: 30px;
-    background: linear-gradient(109.6deg, rgb(212, 207, 207) 11.2%, rgb(7, 93, 103));
+    background: linear-gradient(109.6deg, rgb(59, 57, 57) 11.2%, rgb(7, 93, 103));
   
     
 }
@@ -16,7 +16,7 @@ body{margin: 30px;
 }
 
 .navbar{
-    background-color: #facf5a;
+    background-color: #80a997;
   
 }
 
@@ -28,7 +28,7 @@ body{margin: 30px;
 
 }
 .nav-link:hover{
-    color: rgb(255, 253, 253);
+    color: #80a997;
     background-color:#032b2f;
     border-radius: 5px;
 }
@@ -57,7 +57,7 @@ body{margin: 30px;
     text-align: center;
     font-weight:bold ;
     font-size: 15px;
-    color: #ffffff;
+    color: #d9d9d9;
     padding-top:30px;
     padding-bottom: 20px;
     background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(7, 93, 103));
@@ -65,14 +65,50 @@ body{margin: 30px;
 }
 .socials a{
     text-decoration: none;
-    color:aliceblue;  
+    color:#d9d9d9;  
     margin: 10px;
    
 }
 
-.sign-up{
+.sign-up, h3{
     margin-left:420px;
+    
 }
 
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#032b2f;
+    color: #d6fcec;
+    font-weight: bolder;
+    border: 1px solid #032b2f;
+   position: relative;
+   left:-10px;
+}
 
+.sign-up-btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#032b2f;
+    color: #d6fcec;
+    font-weight: bolder;
+    border: 1px solid #032b2f;
+   position: relative;
+   left:-10px;
+    
+}
+.sign-up-btn:hover{
+    background-color: #d6fcec;
+    color: #032b2f;
+   transition: 3ms ease-in-out;
+}
 
+.email{
+    padding: 10px;
+    border: 1px solid #032b2f;
+    border-radius: 5px;
+}
+
+.sign:hover{
+    cursor: pointer;
+}
