@@ -1,0 +1,178 @@
+body{margin: 30px;
+    background: linear-gradient(109.6deg, rgb(59, 57, 57) 11.2%, rgb(7, 93, 103));
+
+}
+
+
+.header-bg{background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(7, 93, 103));
+  
+   
+}
+.logo{
+   padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.navbar{
+    background-color: #ffde59;
+  
+}
+
+.nav-link{
+    color: #032b2f;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+
+}
+.nav-link:hover{
+    color: #80a997;
+    background-color:#032b2f;
+    border-radius: 5px;
+}
+.nav-item{
+    padding-left: 30px;
+    
+}
+.hero{
+  background-image: url("../images/sky.jpg");
+  padding: 200px;
+  background-size:cover ;
+}
+.display{
+margin: 150px;
+}
+.bg-footer{
+text-align: center;
+font-weight:bold ;
+font-size: 15px;
+color: #d9d9d9;
+padding-top:30px;
+padding-bottom: 20px;
+background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(7, 93, 103));
+
+}
+.socials a{
+text-decoration: none;
+color:#d9d9d9;  
+margin: 10px;
+
+}
+
+.img-fluid{
+ border-radius: 5px;
+}
+
+.ideas-txt{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+h1 {
+  color: #333;
+  font-family: tahoma;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 550px;
+}
+
+h1 span {
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+
+.message {
+  background-color: #ffde59;
+  color: #032b2f;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.8rem;
+  top: 0.2rem;
+  left: 270px;
+  animation: openclose 5s ease-in-out infinite;
+  
+}
+
+.word1, .word2, .word3, .word4, .word5 {
+  font-family: tahoma;
+}
+
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 230px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 230px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -4.5rem;
+    
+  }
+  48% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  62% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  86% {
+    top: -9rem;
+    width: 285px;
+  }
+  95% {
+    top: -9rem;
+    width: 285px;
+  }
+  98% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+  
+}
