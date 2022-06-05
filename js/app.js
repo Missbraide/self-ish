@@ -20,6 +20,6 @@ function signUp() {
     alert("Please a number greater than 0");
   }
 }
-let sign = document.getElementById("ella");
+let sign = document.getElementById("mail");
 console.log(sign);
 sign.addEventListener("click", signUp);

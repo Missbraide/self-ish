@@ -25,7 +25,7 @@
     crossorigin="anonymous"
   ></script>
 </head>
-<script src="../js/ideas.js"></script>
+<!-- <script src="../js/ideas.js"></script> -->
 <body>
     <div class="container">
         <div class="header-bg">
@@ -42,13 +42,13 @@
                     <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="html/listen.html">Listen</a>
+                    <a class="nav-link" href="listen.html">Listen</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="html/watch.html">Watch</a>
+                    <a class="nav-link" href="watch.html">Watch</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="html/ideas.html">Ideas</a>
+                    <a class="nav-link" href="ideas.html">Ideas</a>
                   </li>
                 </ul>
               </div>
@@ -67,44 +67,93 @@
           <div class="row ideas mt-5 mb-5">
             <div class="col-md-4">
               <img src="../images/bath.jpg" class="img-fluid" alt="bath">
-              <p class="ideas-txt">Take a long bath
-                <a href="http://" target="_blank" rel="noopener noreferrer">Find More</a>
-              </p>
-              
-            </div>
-            <div class="col-md-4">
-              <img src="../images/book.jpg" class="img-fluid" alt="bath">
-              <p class="ideas-txt">Take a long bath
-                <a href="http://" target="_blank" rel="noopener noreferrer">Find More</a>
-              </p>
-            </div>
-            <div class="col-md-4">
-              <img src="../images/massage.jpg" class="img-fluid" alt="bath">
-              <div>
-                <p class="ideas-txt">Take a long bath
-                  <a href="http://" target="_blank" rel="noopener noreferrer">Find More</a>
-                </p>
+              <div class="ideas-txt"> <p>Take a long bath</p>
+                <a href="https://www.wellwithbrielle.com/blog/how-to-create-the-ultimate-self-care-bath" target="_blank" rel="noopener noreferrer" class="ideas-link">Find More</a>
               </div>
-              
+            </div>
+            <div class="col-md-4 ">
+              <img src="../images/book.jpg" class="img-fluid" alt="bath">
+              <div class="ideas-txt">
+                <p>Read a book </p>
+                  <a href="https://www.theatlantic.com/books/archive/2022/05/summer-reading-2022/608494/" target="_blank" rel="noopener noreferrer" class="ideas-link">Find More</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="../images/massage.jpg" class="img-fluid" alt="bath" >
+              <div class="ideas-txt">
+                <p >Treat yourself to a massage
+                </p>
+                <a href="https://ergonomictrends.com/common-types-massages-benefits/" target="_blank" rel="noopener noreferrer" class="ideas-link">Find More</a>
+              </div>
             </div>
             <div class="col-md-4 pt-5">
               <img src="../images/meal.jpg" class="img-fluid" alt="bath">
-              <p class="ideas-txt">Take a long bath
-                <a href="http://" target="_blank" rel="noopener noreferrer">Find More</a>
+              <div class="ideas-txt">
+              <p >Start your day with breakfast
               </p>
+              <a href="https://bestfriendsforfrosting.com/14-luxurious-breakfast-ideas/" target="_blank" rel="noopener noreferrer" class="ideas-link">Find More</a>
+            </div>
             </div>
             <div class="col-md-4 pt-5">
               <img src="../images/breathe.jpg" class="img-fluid" alt="bath">
-              <p class="ideas-txt">Take a long bath
-                <a href="http://" target="_blank" rel="noopener noreferrer">Find More</a>
-              </p>
+              <div class="ideas-txt">
+                <p>Take a deep breathe
+                </p>
+                <a href="https://www.healthline.com/health/breathing-exercise" target="_blank" rel="noopener noreferrer" class="ideas-link">Find More</a>
+              </div>
             </div>
             <div class="col-md-4 pt-5">
               <img src="../images/dream.jpg" class="img-fluid" alt="bath">
-              <p class="ideas-txt">Take a long bath
-                <a href="http://" target="_blank" rel="noopener noreferrer">Find More</a>
+              <div class="ideas-txt">
+              <p>Dream big
               </p>
+              <a href="https://www.lifehack.org/articles/productivity/8-ideas-create-your-own-vision-board.html" target="_blank" rel="noopener noreferrer" class="ideas-link">Find More</a>
             </div>
+          </div>
+          </div>
+
+          <div class="ideas-sub mb-5">
+            <h3>Contact us for a Personalized Self Care Plan</h3>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <input type="text" class="form-control" id="firstName" placeholder="First Name">
+              </div>
+              <div class="col-md-6">
+             <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+              </div>
+              <div class="col-6">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
+              </div>
+              <div class="col-6">
+                <input type="tel" class="form-control" id="inputAddress2" placeholder="123-456-7890">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Send me ideas
+                  </label>
+                </div>
+              </div>
+              <div class="col-12" >
+                <button type="submit" class="btn-sign" onclick="greet()">Send me a Plan</button>
+              </div>
+            </form>
           </div>
           <footer  class="bg-footer">
             <p>Designed and built by Ella Braide 2022</p>
@@ -117,4 +166,10 @@
           </footer>
         </div>
 </body>
+<script defer>
+  function greet() {
+    alert("Congratulations! Your self care plan request was received confirmation has been sent to your email");
+  }
+
+</script>
 </html>
