@@ -16,7 +16,7 @@ body{margin: 30px;
 }
 
 .navbar{
-    background-color: #80a997;
+    background-color: #ffde59;
   
 }
 
@@ -28,7 +28,7 @@ body{margin: 30px;
 
 }
 .nav-link:hover{
-    color: #80a997;
+    color: #ffde59;
     background-color:#032b2f;
     border-radius: 5px;
 }
